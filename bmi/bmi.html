@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi.css">
+    <title>BMI Kalkulátor</title>
+</head>
+<body>
+    <h1>Testtömegindex (BMI) Kalkulátor</h1>
+
+    <label for="mass">Tömeg (kg):</label>
+    <input type="number" id="mass" placeholder="pl. 81.2"><br><br>
+
+    <label for="height">Magasság (m):</label>
+    <input type="number" id="height" step="0.01" placeholder="pl. 1.78"><br><br>
+
+    <button onclick="calculateBMI()">Számít</button>
+
+    <p id="bmiResult">BMI: </p>
+
+    <script src="bmi.js"></script>
+</body>
+</html>

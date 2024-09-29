@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <title>Kő, Papír, Olló Játék</title>
+</head>
+<body>
+    <h1>Kő, Papír, Olló Játék</h1>
+
+    <label for="player1">1. játékos választása (0: kő, 1: papír, 2: olló):</label>
+    <input type="number" id="player1" min="0" max="2"><br><br>
+
+    <label for="player2">2. játékos választása (0: kő, 1: papír, 2: olló):</label>
+    <input type="number" id="player2" min="0" max="2"><br><br>
+
+    <button onclick="playGame()">Játék</button>
+
+    <p id="result"></p>
+
+    <script src="rps.js"></script>
+</body>
+</html>

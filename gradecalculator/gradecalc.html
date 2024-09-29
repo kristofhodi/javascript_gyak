@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gradecalc.css">
+    <title>Érdemjegy Kalkulátor</title>
+</head>
+<body>
+    <h1>Érdemjegy Kalkulátor</h1>
+
+    <label for="score">Add meg a pontszámot (0-100 között):</label>
+    <input type="number" id="score" min="0" max="100" placeholder="pl. 85"><br><br>
+
+    <button onclick="calculateGrade()">Számít</button>
+
+    <p id="result"></p>
+
+    <script src="gradecalc.js"></script>
+</body>
+</html>
